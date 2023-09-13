@@ -3,7 +3,7 @@ pipeline {
     
     tools {nodejs "node"}
     environment {
-        imageName = 'littlelege/jenkins_uf'
+        imageName = littlelege/jenkins_uf.
         dockerCredentialsName = 'dockerhub-creds'
         dockerimage=''
     }
